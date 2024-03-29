@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap');
+
+
+
+
+.box1{
+    background-image: url(image/hero.jpg);
+    height: 100%;
+    background-size: 100% auto ;
+    background-position: center;
+ 
+   
+}
+
+.logohero{
+    height: 200px;
+    width: auto;
+}
+
+.judul2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #FF004D;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: 18px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+
+}
+
+
+  
+.box2{
+    background-color: #272829;
+    height: 250px;
+    margin-top: auto;
+    padding: auto;
+    color: #F5F7F8;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all .1s;
+   }
+   
+   .button:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+   }
+
+h4{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-bottom: 10px solid #272829 ;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-bottom: 10px solid white ;
+    color: white;
+  text-align: center;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s; 
+    background-color: yellow ;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247); 
+  }
+
+  .imgcard{
+    transition: transform 0.3s, box-shadow 0.3s; 
+    height:20px ;
+    padding: 20px;
+  }
+  .imgcard:hover{
+    transform: scale(1.05); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247); 
+  }
+
+.about{
+    height: 500px; 
+}
+
+
+.box3 {
+
+    background-size: cover;
+    background-position: center;
+    background-color: yellow;
+    height: 100%;
+    padding: auto;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+   .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+
+    }
+  
+   
+    .box{
+        background-image: url(image/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
+        background-size: cover;
+      
+    }
+  @media  (max-width: 430px)  {
+  
+   
+    .about{
+        height: 300px;
+      
+    }
+ 
+ 
+  }
+
+  
+

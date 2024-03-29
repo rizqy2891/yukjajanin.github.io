@@ -133,7 +133,13 @@ h1{
       -webkit-overflow-scrolling: touch;
 
     }
+    .rounded-circle {
+      transition: transform 0.2s;
+    }
   
+    .rounded-circle:hover {
+      transform: scale(1.1);
+    }
    
     .box{
         background-image: url(image/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
